@@ -42,8 +42,8 @@ body{
     padding: 10px;
 }
 .main .form .form-field {
-    margin-bottom: 5px;
-    padding-bottom: 20px;
+    margin-bottom: 1px;
+    padding-bottom: 5px;
 }
 
 .main .form .form-field label {
@@ -83,14 +83,15 @@ body{
 }
 
 /*  This is added through Js */
-.form-field.error input {
-    background-color: var(--error-color);
+.main .form .form-field.error input {
+    border-color: var(--error-color);
 }
 
-.form-field.success input {
-    background-color: var(--success-color);
+.main .form .form-field.success input {
+    border-color: var(--success-color);
 }
 
 .form-field small {
     color: var(--error-color);
+    
 }
